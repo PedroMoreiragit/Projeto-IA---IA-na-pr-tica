@@ -10,6 +10,9 @@ A linguagem principal utilizada no projeto foi Python, uma das mais populares no
 ### 2. **YFinance**
 Utilizada para obter dados financeiros históricos, como o preço de ações de uma empresa ao longo de um período específico. A função `fetch_stock_price()` utiliza o **Yahoo Finance API** para realizar a consulta das cotações.
 
+### 3. **Crew AI**
+O CrewAI é uma biblioteca projetada para facilitar a criação e o gerenciamento de agentes de IA que colaboram para atingir um objetivo. Cada agente é configurado com uma função específica, podendo executar tarefas de forma independente ou coordenada, usando processamento hierárquico para dividir o trabalho. Isso permite uma abordagem modular para projetos de IA, onde diferentes aspectos de um problema são resolvidos por agentes especializados.
+
 #### Uso no projeto:
 - Obtenção de preços de ações a partir de um ticker fornecido (ex: AAPL para Apple).
 - Análise histórica de dados de ações de um ano para prever tendências.
